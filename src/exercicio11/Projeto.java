@@ -6,7 +6,7 @@ public class Projeto {
 	private String nome;
 	private int duracao;
 	private double custo;
-	private int id = 0;
+	static int id;
 	
 	Projeto(String nome, int duracao){
 		setNome(nome);

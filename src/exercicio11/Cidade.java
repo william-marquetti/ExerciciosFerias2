@@ -5,7 +5,7 @@ public class Cidade {
 	private int codigo;
 	private String nome;
 	private int uf;
-	private int id = 0;
+	static int id;
 	
 	Cidade(String nome, int uf){
 		setNome(nome);

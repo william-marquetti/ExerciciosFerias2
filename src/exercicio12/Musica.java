@@ -1,15 +1,15 @@
-package exercicio11;
+package exercicio12;
 
-public class Fornecedor {
+public class Musica {
 
 	private int codigo;
-	private int categoria;
 	private String nome;
+	private int duracao;
 	static int id;
 	
-	public Fornecedor(String nome, int categoria) {
+	Musica(String nome, int duracao){
 		setNome(nome);
-		setCategoria(categoria);
+		setDuracao(duracao);
 		geraId();
 	}
 	
@@ -17,21 +17,13 @@ public class Fornecedor {
 		id++;
 		setCodigo(id);
 	}
-	
+
 	public int getCodigo() {
 		return codigo;
 	}
 
-	public void setCodigo(int codigo) {
+	private void setCodigo(int codigo) {
 		this.codigo = codigo;
-	}
-
-	public int getCategoria() {
-		return categoria;
-	}
-
-	public void setCategoria(int categoria) {
-		this.categoria = categoria;
 	}
 
 	public String getNome() {
@@ -40,6 +32,14 @@ public class Fornecedor {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	public int getDuracao() {
+		return duracao;
+	}
+
+	public void setDuracao(int duracao) {
+		this.duracao = duracao;
 	}
 
 }

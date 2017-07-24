@@ -6,7 +6,7 @@ public class Peca {
 	private String nome;
 	private double preco;
 	private String cor;
-	private int id = 0;
+	static int id;
 	
 	Peca(String nome, String cor){
 		setNome(nome);

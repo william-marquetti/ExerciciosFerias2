@@ -6,7 +6,7 @@ public class Teste {
 		
 		Uf uf1 = new Uf("Santa Catarina");
 		Uf uf2 = new Uf("São Paulo");
-		
+			
 		Cidade cidade1 = new Cidade("Blumenau", uf1.getCodigo()); 
 		Cidade cidade2 = new Cidade("Campinas", uf2.getCodigo());
 		
@@ -30,6 +30,6 @@ public class Teste {
 		
 		FornecePara fp1 = new FornecePara(peca1.getCodigo(), for1.getCodigo(), pj1.getCodigo(), 6d);
 		FornecePara fp2 = new FornecePara(peca2.getCodigo(), for2.getCodigo(), pj2.getCodigo(), 4d);
-			
+		
 	}
 }

@@ -3,7 +3,7 @@ package exercicio11;
 public class Uf {
 	private int codigo;
 	private String nome;
-	private int id = 0;
+	static int id;
 	
 	Uf(String nome){
 		setNome(nome);
