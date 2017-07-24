@@ -4,10 +4,10 @@ public class Cidade {
 	
 	private int codigo;
 	private String nome;
-	private int uf;
+	private Uf uf;
 	static int id;
 	
-	Cidade(String nome, int uf){
+	Cidade(String nome, Uf uf){
 		setNome(nome);
 		setUf(uf);
 		geraId();
@@ -34,11 +34,11 @@ public class Cidade {
 		this.nome = nome;
 	}
 
-	public int getUf() {
+	public Uf getUf() {
 		return uf;
 	}
 
-	public void setUf(int uf) {
+	public void setUf(Uf uf) {
 		this.uf = uf;
 	}
 

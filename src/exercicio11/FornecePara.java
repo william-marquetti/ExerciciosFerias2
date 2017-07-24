@@ -2,39 +2,39 @@ package exercicio11;
 
 public class FornecePara {
 
-	private int peca;
-	private int fornecedor;
-	private int projeto;
+	private Peca peca;
+	private Fornecedor fornecedor;
+	private Projeto projeto;
 	private double quantidade;
 
-	FornecePara(int peca, int fornecedor, int projeto, double quantidade){
+	FornecePara(Peca peca, Fornecedor fornecedor, Projeto projeto, double quantidade){
 		setPeca(peca);
 		setFornecedor(fornecedor);
 		setProjeto(projeto);
 		setQuantidade(quantidade);
 	}
 
-	public int getPeca() {
+	public Peca getPeca() {
 		return peca;
 	}
 
-	public void setPeca(int peca) {
+	public void setPeca(Peca peca) {
 		this.peca = peca;
 	}
 
-	public int getFornecedor() {
+	public Fornecedor getFornecedor() {
 		return fornecedor;
 	}
 
-	public void setFornecedor(int fornecedor) {
+	public void setFornecedor(Fornecedor fornecedor) {
 		this.fornecedor = fornecedor;
 	}
 
-	public int getProjeto() {
+	public Projeto getProjeto() {
 		return projeto;
 	}
 
-	public void setProjeto(int projeto) {
+	public void setProjeto(Projeto projeto) {
 		this.projeto = projeto;
 	}
 

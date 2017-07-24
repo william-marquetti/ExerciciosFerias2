@@ -2,13 +2,13 @@ package exercicio12;
 
 public class Canta {
 
-	private int banda;
-	private int musica;
-	private int gravadora;
+	private Banda banda;
+	private Musica musica;
+	private Gravadora gravadora;
 	private int ano_gravacao;
 	private String estilo;
 	
-	Canta(int banda, int musica, int gravadora, int ano_gravacao, String estilo){
+	Canta(Banda banda, Musica musica, Gravadora gravadora, int ano_gravacao, String estilo){
 		setBanda(banda);
 		setMusica(musica);
 		setGravadora(gravadora);
@@ -16,27 +16,27 @@ public class Canta {
 		setEstilo(estilo);
 	}
 
-	public int getBanda() {
+	public Banda getBanda() {
 		return banda;
 	}
 
-	public void setBanda(int banda) {
+	public void setBanda(Banda banda) {
 		this.banda = banda;
 	}
 
-	public int getMusica() {
+	public Musica getMusica() {
 		return musica;
 	}
 
-	public void setMusica(int musica) {
+	public void setMusica(Musica musica) {
 		this.musica = musica;
 	}
 
-	public int getGravadora() {
+	public Gravadora getGravadora() {
 		return gravadora;
 	}
 
-	public void setGravadora(int gravadora) {
+	public void setGravadora(Gravadora gravadora) {
 		this.gravadora = gravadora;
 	}
 
